@@ -1,0 +1,34 @@
+.place__link {
+    display: flex;
+    max-width: 456px;
+    min-height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding-top: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__link {
+      max-width: 456px;
+      min-height: 22px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .place__link {
+      max-width: 352px;
+      min-height: 22px;
+    }
+  } 
+
+  @media screen and (max-width: 320px) {
+    .place__link {
+      max-width: 288px;
+      min-height: 22px;
+    }
+  }

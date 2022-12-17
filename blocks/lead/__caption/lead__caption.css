@@ -1,0 +1,39 @@
+.lead__caption {
+    width: 158px;
+    height: 14px;
+    padding-left: 150px;
+    padding-right: 974px;
+    padding-top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+      padding-left: 48px;
+      padding-right: 818px;
+      padding-top: 0px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .lead__caption {
+      padding-left: 24px;
+      padding-right: 586px;
+      padding-top: 0px;
+    }
+  } 
+
+  @media screen and (max-width: 320px) {
+    .lead__caption {
+      padding-left: 16px;
+      padding-right: 146px;
+      padding-top: 0px;
+    }
+  }
