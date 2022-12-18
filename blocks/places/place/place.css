@@ -1,47 +1,49 @@
 .place {
-    display: grid;
-    grid-template-columns: 460px 1fr;
-    column-gap: 40px;
-    row-gap: 48px;
-    max-width: 984px;
-    padding-top: 80px;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  column-gap: 40px;
+  row-gap: 48px;
+  max-width: 984px;
+  padding-top: 80px;
 }
 
 .place:first-child {
-  padding-top: 0px;
+padding-top: 0px;
 }
 
 @media screen and (max-width: 1024px) {
-    .place {
-      grid-template-columns: 440px 1fr;
-      column-gap: 32px;
-      max-width: 928px;
-      padding-top: 80px;
-    }
-
-    .place:first-child{
-      padding-top: 80px;
-    }
+  .place {
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
+    max-width: 928px;
+    padding-top: 80px;
   }
 
-  @media screen and (max-width: 768px) {
-    .place {
-      max-width: 720px;
-      grid-template-columns: 340px 1fr;
-      column-gap: 28px;
-      row-gap: 0px;
-      padding-top: 118px;
-    }
-
-    .place:first-child{
-      padding-top: 74px;
-    }
-  } 
-
-  @media screen and (max-width: 320px) {
-    .place {
-      max-width: 320px;
-      min-height: 1042px;
-      padding-top: 50px;
-    }
+  .place:first-child{
+    padding-top: 80px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+    row-gap: 0px;
+    padding-top: 118px;
+  }
+
+  .place:first-child{
+    padding-top: 74px;
+  }
+} 
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+}

@@ -7,8 +7,10 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    max-width: 1184px;
-    min-height: 671px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     padding: 92px 48px 92px 48px;
     margin: 0 auto;
 }
@@ -36,6 +38,8 @@
 
   @media screen and (max-width: 320px) {
     .photo-grid {
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(12, 1fr);
       max-width: 288px;
       min-height: 2724px;
       padding: 64px 16px 14px 16px;

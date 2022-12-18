@@ -30,5 +30,7 @@
     .intro__text {
       max-width: 288px;
       min-height: 520px;
+      padding-left: 0px;
+      
     }
   }
