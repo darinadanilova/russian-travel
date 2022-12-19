@@ -1,8 +1,7 @@
 .intro__title{
     max-width: 690px;
-    min-height: 58px;
     text-align: start;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -16,21 +15,18 @@
 @media screen and (max-width: 1024px) {
     .intro__title {
       max-width: 690px;
-      min-height: 58px;
     }
   }
 
   @media screen and (max-width: 768px) {
     .intro__title {
       max-width: 720px;
-      min-height: 58px;
     }
   } 
 
   @media screen and (max-width: 320px) {
     .intro__title {
       max-width: 288px;
-      min-height: 70px;
       word-wrap: break-word;
       font-size: 32px;
       line-height: 35px;

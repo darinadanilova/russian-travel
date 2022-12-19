@@ -2,7 +2,7 @@
   grid-row: 1/2;
   grid-column: 1/2;
   max-width: 460px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -15,23 +15,24 @@
 @media screen and (max-width: 1024px) {
   .place__title {
     max-width: 440px;
-    min-height: 76px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
-    max-width: 340px;
-    min-height: 92px;
+    width: 100%;
     font-size: 42px;
     line-height: 46px;
   }
+
+  .place__title:first-child {
+    width: 95%;
 } 
+}
 
 @media screen and (max-width: 320px) {
   .place__title {
     max-width: 288px;
-    min-height: 35px;
     font-size: 32px;
     line-height: 35px;
     padding-top: 0px;

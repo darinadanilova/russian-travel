@@ -5,24 +5,21 @@
   grid-column: 2/3;
   align-self: flex-end;
   max-width: 456px;
-  min-height: 46px;
 }
 
 .place__website:first-child {
-padding-top: 90px;
+  padding-top: 90px;
 }
 
 @media screen and (max-width: 1024px) {
   .place__website {
     max-width: 456px;
-    min-height: 46px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__website {
     max-width: 352px;
-    min-height: 46px;
     padding-top: 0px;
     margin-top: 0px;
   }
@@ -43,6 +40,5 @@ padding-top: 90px;
     padding-right: 196px;
     padding-top: 33px;
     max-width: 288px;
-    min-height: 46px;
   }
 }

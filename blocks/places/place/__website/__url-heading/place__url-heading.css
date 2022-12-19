@@ -1,9 +1,8 @@
 .place__url-heading {
   display: flex;
   max-width: 456px;
-  min-height: 12px;
   padding-top: 0px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -15,14 +14,12 @@
 @media screen and (max-width: 1024px) {
   .place__url-heading {
     max-width: 456px;
-    min-height: 12px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__url-heading {
     max-width: 352px;
-    min-height: 12px;
     padding-top: 0px;
     margin-top: 0px;
   }
@@ -36,6 +33,5 @@
 @media screen and (max-width: 320px) {
   .place__url-heading {
     max-width: 288px;
-    min-height: 12px;
   }
 }
