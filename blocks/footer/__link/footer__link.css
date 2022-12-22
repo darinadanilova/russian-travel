@@ -8,17 +8,13 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 540px) {
-    .footer__link {
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 24px;
-    }
+.footer__link:hover {
+  transition-property: color;
+  opacity: 0.5;
 }
 
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .footer__link {
-      font-weight: 400;
       font-size: 24px;
       line-height: 24px;
     }

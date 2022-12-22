@@ -9,16 +9,9 @@
     color: #FFFFFF;
     margin: 0 auto;
     padding-top: 32px;
-    margin-bottom: 245px;
     position: relative;
     z-index: 2;
 }
-
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        margin-bottom: 0px;
-    }
-  }
 
   @media screen and (max-width: 320px) {
     .cover__subtitle {

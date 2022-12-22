@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 540px) {
   .intro__title {
-    word-wrap: break-word;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
   }
@@ -21,8 +21,6 @@
 
   @media screen and (max-width: 320px) {
     .intro__title {
-      word-wrap: break-word;
-      font-size: 32px;
-      line-height: 35px;
+      max-width: 288px;
     }
   }

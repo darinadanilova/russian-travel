@@ -14,23 +14,3 @@
         padding-top: 48px;
     }
   }
-
-  @media screen and (max-width: 900px) {
-    .lead {
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    .lead {
-    }
-  }
-
-  @media screen and (max-width: 540px) {
-    .lead {
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    .lead {
-    }
-  }

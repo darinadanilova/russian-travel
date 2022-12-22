@@ -10,12 +10,6 @@
     }
   }
 
-  @media screen and (max-width: 900px) {
-    .lead__image {
-      max-width: 100%;
-    }
-  }
-
   @media screen and (max-width: 768px) {
     .lead__image {
       max-width: 100%;
@@ -24,12 +18,12 @@
 
   @media screen and (max-width: 540px) {
     .lead__image {
-      max-width: 100%;
+      max-width: 500px;
     }
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 340px) {
     .lead__image {
-      max-width: 100%;
+      max-width: 320px;
     }
   }
