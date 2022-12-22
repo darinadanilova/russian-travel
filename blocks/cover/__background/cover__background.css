@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 0px;
     max-width: 1184px;
-    width: 100%;
+    min-height: 740px;
     height: 100%;
     z-index: 0;
     text-align: center;
@@ -36,27 +36,20 @@
 .cover__background:hover::before {
     opacity: 0.8;
 }
-
 @media screen and (max-width: 1024px) {
     .cover__background {
-      max-width: 1024px;
-      min-height: 640px;
-      padding-top: 0px;
+        min-height: 640px;
     }
   }
 
   @media screen and (max-width: 768px) {
     .cover__background {
-      max-width: 768px;
       min-height: 480px;
-      padding-top: 90px;
     }
   } 
 
   @media screen and (max-width: 320px) {
     .cover__background {
-      max-width: 320px;
       min-height: 200px;
-      padding-top: 66px;
     }
   }

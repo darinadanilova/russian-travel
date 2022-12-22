@@ -6,30 +6,23 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    padding-bottom: 38px;
-    padding-right: 20px;
+    padding-bottom: 40px;
     margin: 0;
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
-    .intro__title {
-      max-width: 690px;
-    }
+@media screen and (max-width: 540px) {
+  .intro__title {
+    word-wrap: break-word;
+    font-size: 32px;
+    line-height: 35px;
   }
-
-  @media screen and (max-width: 768px) {
-    .intro__title {
-      max-width: 720px;
-    }
-  } 
+}
 
   @media screen and (max-width: 320px) {
     .intro__title {
-      max-width: 288px;
       word-wrap: break-word;
       font-size: 32px;
       line-height: 35px;
-      padding-left: 20px;
     }
   }

@@ -1,7 +1,6 @@
 .lead__caption {
     max-width: 158px;
-    padding-left: 150px;
-    padding-right: 974px;
+    align-self: flex-start;
     padding-top: 0px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
@@ -11,28 +10,33 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFFFFF;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__caption {
-      padding-left: 48px;
-      padding-right: 818px;
-      padding-top: 0px;
+        padding-left: 28px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .lead__caption {
     }
   }
 
   @media screen and (max-width: 768px) {
     .lead__caption {
-      padding-left: 24px;
-      padding-right: 586px;
-      padding-top: 0px;
+        padding-left: 24px;
     }
-  } 
+  }
+
+  @media screen and (max-width: 540px) {
+    .lead__caption {
+    }
+  }
 
   @media screen and (max-width: 320px) {
     .lead__caption {
-      padding-left: 16px;
-      padding-right: 146px;
-      padding-top: 0px;
+        padding-left: 16px;
     }
   }

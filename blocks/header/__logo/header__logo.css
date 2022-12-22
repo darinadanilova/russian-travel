@@ -2,26 +2,32 @@
     align-self: flex-start;
     max-width: 176px;
     min-height: 52px;
-    padding: 0px 931px 0px 3px;
+    padding: 0px;
     margin: 0px;
 }
 
 @media screen and (max-width: 1024px) {
     .header__logo {
-      padding: 0px 675px 0px 0px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .header__logo {
     }
   }
 
   @media screen and (max-width: 768px) {
     .header__logo {
-      padding: 0px 467px 0px 0px;
     }
-  } 
+  }
+
+  @media screen and (max-width: 540px) {
+    .header__logo {
+    }
+  }
 
   @media screen and (max-width: 320px) {
     .header__logo {
-      max-width: 142px;
-      min-height: 42px;
-      padding: 0px 84px 0px 0px;
+        max-width: 142px;
     }
   }

@@ -4,39 +4,33 @@
     align-items: center;
     justify-content: center;
     max-width: 984px;
-    min-height: 1005px;
     padding-top: 56px;
-    padding-left: 148px;
-    padding-right: 148px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
-      max-width: 968px;
-      min-height: 962px;
-      padding-left: 48px;
-      padding-right: 48px;
-      padding-top: 48px;
+        padding-top: 48px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .lead {
     }
   }
 
   @media screen and (max-width: 768px) {
     .lead {
-      max-width: 768px;
-      min-height: 862px;
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 48px;
     }
-  } 
+  }
+
+  @media screen and (max-width: 540px) {
+    .lead {
+    }
+  }
 
   @media screen and (max-width: 320px) {
     .lead {
-      max-width: 320px;
-      min-height: 406px;
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 48px;
     }
   }

@@ -1,15 +1,13 @@
 .header__lang-link {
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
-    max-width: 30px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     margin: 0px;
-    padding-left: 18px;
+    gap: 18px;
     padding-top: 5px;
     color: white;
     text-underline-offset: 5px;
@@ -17,26 +15,35 @@
 
 .header__lang-link:last-child {
     text-decoration-line: none;
-    align-items: flex-end;
-    text-align: end;
 }
 
 @media screen and (max-width: 1024px) {
     .header__lang-link {
-      max-width: 30px;
+    padding-top: 8px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .header__lang-link {
+    padding-top: 6px;
     }
   }
 
   @media screen and (max-width: 768px) {
     .header__lang-link {
-      max-width: 30px;
+    padding-top: 6px;
     }
-  } 
+  }
+
+  @media screen and (max-width: 540px) {
+    .header__lang-link {
+    }
+  }
 
   @media screen and (max-width: 320px) {
     .header__lang-link {
-      max-width: 22px;
       font-size: 18px;
       line-height: 20px;
+      text-underline-offset: 3px;
     }
   }

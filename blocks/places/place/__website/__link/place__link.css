@@ -1,6 +1,5 @@
 .place__link {
   display: flex;
-  max-width: 456px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -8,24 +7,5 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
-  padding-top: 0px;
   text-underline-offset: 5px;
-}
-
-@media screen and (max-width: 1024px) {
-  .place__link {
-    max-width: 456px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__link {
-    max-width: 352px;
-  }
-} 
-
-@media screen and (max-width: 320px) {
-  .place__link {
-    max-width: 288px;
-  }
 }
