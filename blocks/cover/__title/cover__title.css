@@ -15,13 +15,13 @@
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-        padding-top: 195px;
+      padding-top: 195px;
     }
   }
 
   @media screen and (max-width: 768px) {
     .cover__title {
-        padding-top: 115px;
+      padding-top: 115px;
     }
   } 
 

@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 1024px) {
     .lead__caption {
-        padding-left: 28px;
+      padding-left: 28px;
     }
   }
 
@@ -26,7 +26,7 @@
 
   @media screen and (max-width: 768px) {
     .lead__caption {
-        padding-left: 24px;
+      padding-left: 24px;
     }
   }
 
@@ -37,6 +37,6 @@
 
   @media screen and (max-width: 320px) {
     .lead__caption {
-        padding-left: 16px;
+      padding-left: 16px;
     }
   }
