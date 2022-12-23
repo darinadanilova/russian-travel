@@ -12,10 +12,24 @@
   box-sizing: border-box;
 }
 
-  @media screen and (max-width: 540px) {
-    .lead__title {
-    padding-bottom: 14px;
-    font-size: 40px;
-    line-height: 44px;
-    }
+@media screen and (max-width: 671px) {
+  .lead__title {
+  padding-bottom: 14px;
+  font-size: 40px;
+  line-height: 44px;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 288px) {
+  .lead__title {
+    max-width: 100%;
+    font-size: 30px;
+    line-height: 30px;
+  }
+}

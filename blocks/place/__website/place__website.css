@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 590px) {
   .place__website {
     align-self: flex-start;
     padding-top: 32px;

@@ -4,26 +4,26 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
-    .lead__image {
-      max-width: 928px;
-    }
+@media screen and (max-width: 1024px) { 
+  .lead__image { 
+    max-width: 928px;
   }
+} 
 
-  @media screen and (max-width: 768px) {
-    .lead__image {
-      max-width: 100%;
-    }
+@media screen and (max-width: 927px) {
+  .lead__image {
+    max-width: 768px;
   }
+}
 
-  @media screen and (max-width: 540px) {
-    .lead__image {
-      max-width: 500px;
-    }
+@media screen and (max-width: 767px) {
+  .lead__image {
+    max-width: 320px;
   }
+}
 
-  @media screen and (max-width: 340px) {
-    .lead__image {
-      max-width: 320px;
-    }
+@media screen and (max-width: 319px) {
+  .lead__image {
+    max-width: 100%;
   }
+}
