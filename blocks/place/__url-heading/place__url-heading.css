@@ -7,9 +7,6 @@
   line-height: 12px;
   letter-spacing: 2px;
   color: #AAAAAA;
+  margin: 0px;
+  text-transform: uppercase;
 }
-
-  .place__url-heading:first-child {
-   padding-top: 0px;
-   margin-top: 0px;
-  }

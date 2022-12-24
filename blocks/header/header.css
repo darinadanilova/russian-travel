@@ -5,14 +5,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 28px;
-    margin: 0 auto;
+    margin: 28px auto 56px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
     max-width: 928px;
+    margin-bottom: 48px;
   }
 }
 
@@ -27,6 +28,6 @@
 @media screen and (max-width: 320px) {
   .header {
     max-width: 288px;
-    padding-top: 9px;
+    margin-top: 16px;
   }
 }

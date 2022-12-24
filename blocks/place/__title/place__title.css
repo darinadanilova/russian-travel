@@ -15,11 +15,8 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-  }
-
-  .place__title:first-child {
     width: 95%;
-} 
+  }
 }
 
 @media screen and (max-width: 320px) {
