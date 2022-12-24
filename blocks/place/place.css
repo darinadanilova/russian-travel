@@ -28,7 +28,13 @@
   }
 } 
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 767px) {
+  .place {
+    max-width: 100%;
+  }
+} 
+
+@media screen and (max-width: 597px) {
   .place {
     max-width: 580px;
     display: flex;
@@ -37,6 +43,12 @@
     margin-top: 50px;
   }
 }
+
+@media screen and (max-width: 589px) {
+  .place {
+    max-width: 100%;
+  }
+} 
 
 @media screen and (max-width: 320px) {
   .place {
