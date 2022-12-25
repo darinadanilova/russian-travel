@@ -26,12 +26,6 @@
     column-gap: 28px;
     margin-top: 73px;
   }
-} 
-
-@media screen and (max-width: 767px) {
-  .place {
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width: 597px) {
@@ -44,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: 589px) {
+@media screen and (max-width: 500px) {
   .place {
     max-width: 100%;
   }

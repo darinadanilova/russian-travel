@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1023px) {
   .footer {
     max-width: 100%;
   }
@@ -22,7 +22,7 @@
   }
 } 
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 688px) {
   .footer {
     max-width: 100%;
     flex-wrap: wrap;
@@ -30,7 +30,6 @@
     text-align: start;
     row-gap: 48px;
     margin-top: 64px;
-    margin-bottom: 0px;
     margin-left: 16px;
   }
 }
